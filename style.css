@@ -77,3 +77,8 @@ footer {
 .footer-logo {
   width:220px;
 }
+
+.fab {
+  color: rgb(99, 93, 93);
+  font-size: 1.8rem;
+}
