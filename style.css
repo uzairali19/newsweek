@@ -45,3 +45,35 @@ a {
 .brand > svg {
   fill: #fff;
 }
+
+.navbar1{
+  margin-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+.navbar-list1 {
+  border-left: 1px solid black;
+  padding-left: 18px;
+
+}
+
+.navbar-list2 {
+  padding-left: 25px;
+}
+
+.fs-7 {
+  font-size: .9rem;
+}
+
+.fs-8 {
+  font-size: .7rem;
+}
+
+/* .....................footer section css................... */
+footer {
+  margin-top: 140px;
+}
+
+.footer-logo {
+  width:220px;
+}
