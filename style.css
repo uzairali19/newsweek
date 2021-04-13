@@ -83,6 +83,12 @@ a {
   width: 60px;
 }
 
+/* .....................main section css..................... */
+
+.feat-img {
+  width: 30%;
+}
+
 /* .....................footer section css................... */
 footer {
   margin-top: 140px;
@@ -101,4 +107,9 @@ footer {
 
 .login:hover {
   color: #fff;
+}
+
+.s-img {
+  width: 100px;
+  height: 90px;
 }
