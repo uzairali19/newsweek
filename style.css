@@ -113,6 +113,7 @@ a {
 .fab {
   color: rgb(99, 93, 93);
   font-size: 1.8rem;
+  padding: 10px;
 }
 
 /* Hover tags */
