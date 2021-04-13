@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: burlywood;
 }
 
 body {
@@ -14,11 +13,30 @@ a {
   text-decoration: none;
 }
 
+.font-family {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 /* Header */
+
+.header {
+  position: relative;
+}
 
 .top-background-color {
   background-color: #f72313;
   height: 120px;
+}
+
+.head-style {
+  position: absolute;
+  top: 120px;
+  right: 0%;
+  height: 20px;
+  display: block;
+  width: 140px;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
 }
 
 .top-bar {
@@ -39,14 +57,19 @@ a {
   text-transform: uppercase;
   color: #fff;
   font-weight: 800;
+  margin-bottom: 5px;
 }
 
 .top-sub {
-  border-radius: 64px;
+  border-radius: 24px;
   color: #000;
-  font-weight: 800;
+  font-weight: bolder;
   text-transform: uppercase;
   background-color: #ffe400;
+  height: 35px;
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin: 0;
 }
 
 .brand > svg {
@@ -58,16 +81,34 @@ a {
 .navbar1 {
   margin-top: 15px;
   padding-bottom: 10px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #f4f5f7;
+}
+
+.navbar2 {
+  border-bottom: 2px solid #f4f5f7;
+  padding-bottom: 10px;
+}
+
+.nav-spacing {
+  border-left: 1px solid #d9d9d9;
+  padding-left: 18px;
 }
 
 .navbar-list1 {
-  border-left: 1px solid black;
-  padding-left: 18px;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #000;
+}
+
+a.navbar-list2.active.fs-7 {
+  color: #000;
 }
 
 .navbar-list2 {
   padding-left: 25px;
+  color: #807f84;
 }
 
 .fs-7 {
@@ -81,7 +122,22 @@ a {
 .search {
   border: none;
   outline: none;
-  width: 60px;
+  width: 60px !important;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.search:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.search-icon {
+  z-index: 9;
+  font-weight: 300;
+  padding-right: 120px;
+  font-size: 20px;
 }
 
 /* .....................main section css..................... */
@@ -119,4 +175,9 @@ a {
 
 .login:hover {
   color: #fff;
+}
+
+.navbar-list2:hover,
+.navbar-list1:hover {
+  color: #f72313;
 }
