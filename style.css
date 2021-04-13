@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: burlywood;
 }
 
 body {
@@ -89,10 +90,21 @@ a {
   width: 30%;
 }
 
-/* .....................footer section css................... */
-footer {
-  margin-top: 140px;
+.s-img {
+  width: 100px;
+  height: 90px;
 }
+
+.l-img {
+  width: 160px;
+  height: 140px;
+}
+
+.s-r-img {
+  width: 70px;
+}
+
+/* .....................footer section css................... */
 
 .footer-logo {
   width: 220px;
@@ -107,14 +119,4 @@ footer {
 
 .login:hover {
   color: #fff;
-}
-
-.s-img {
-  width: 100px;
-  height: 90px;
-}
-
-.l-img {
-  width: 160px;
-  height: 140px;
 }
