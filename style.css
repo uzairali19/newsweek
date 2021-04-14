@@ -1,79 +1,32 @@
-/* General Rules */
-
 * {
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.main-logo {
+  max-width: 180px;
 }
 
-a {
-  text-decoration: none;
+.main-lg-logo {
+  width: 300px;
 }
 
-.font-family {
-  font-family: "Roboto Condensed", sans-serif;
+.red {
+  background-color: #ff0500;
 }
 
-/* Header */
-
-.header {
-  position: relative;
-}
-
-.top-background-color {
-  background-color: #f72313;
-  height: 120px;
-}
-
-.head-style {
-  position: absolute;
-  top: 120px;
-  right: 0%;
-  height: 20px;
-  display: block;
-  width: 140px;
-  border-left: 12px solid white;
-  border-top: 13px solid #f72210;
-}
-
-.top-bar {
-  padding-top: 20px;
-}
-
-.top-right-form {
-  right: 0;
-}
-
-.top-date > p {
-  color: #fff;
-  margin: 0;
-}
-
-.login {
-  margin-right: 30px;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 800;
-  margin-bottom: 5px;
-}
-
-.top-sub {
-  border-radius: 24px;
-  color: #000;
-  font-weight: bolder;
-  text-transform: uppercase;
+.yellow {
   background-color: #ffe400;
-  height: 35px;
-  font-size: 18px;
-  padding-bottom: 10px;
-  margin: 0;
 }
 
-.brand > svg {
-  fill: #fff;
+.fa-bars {
+  margin-left: 20px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.top-nav {
+  padding: 8px;
 }
 
 /* Navbar Start */
@@ -82,19 +35,10 @@ a {
   margin-top: 15px;
   padding-bottom: 10px;
   border-bottom: 2px solid #f4f5f7;
+  white-space: nowrap;
 }
 
-.navbar2 {
-  border-bottom: 2px solid #f4f5f7;
-  padding-bottom: 10px;
-}
-
-.nav-spacing {
-  border-left: 1px solid #d9d9d9;
-  padding-left: 18px;
-}
-
-.navbar-list1 {
+.nav-list1 {
   font-size: 19px;
   line-height: 24px;
   font-weight: bold;
@@ -102,11 +46,25 @@ a {
   color: #000;
 }
 
-a.navbar-list2.active.fs-7 {
-  color: #000;
+.nav-r-line {
+  margin-right: 10px;
+  padding-right: 8px;
+  border-right: 1px solid #d7d9dd;
+}
+
+.navbar2 {
+  border-bottom: 2px solid #f4f5f7;
+  padding-bottom: 10px;
+  white-space: nowrap;
+}
+
+.nav-spacing {
+  border-left: 1px solid #d9d9d9;
+  padding-left: 18px;
 }
 
 .navbar-list2 {
+  text-decoration: none;
   padding-left: 25px;
   color: #807f84;
 }
@@ -119,65 +77,48 @@ a.navbar-list2.active.fs-7 {
   font-size: 0.7rem;
 }
 
-.search {
-  border: none;
-  outline: none;
-  width: 60px !important;
-  padding: 0;
-  margin-left: 30px;
+.s-icon {
+  margin-left: 12px;
 }
 
-.search:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
+.fa-search {
+  padding-left: 8px;
 }
 
-.search-icon {
-  z-index: 9;
-  font-weight: 300;
-  padding-right: 120px;
-  font-size: 20px;
+.head-style {
+  position: absolute;
+  top: 88px;
+  right: 0%;
+  height: 20px;
+  display: block;
+  width: 140px;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
 }
 
-/* .....................main section css..................... */
+/* ............footer section css.......... */
 
-.feat-img {
-  width: 30%;
+footer {
+  margin-top: 180px;
 }
-
-.s-img {
-  width: 100px;
-  height: 90px;
-}
-
-.l-img {
-  width: 160px;
-  height: 140px;
-}
-
-.s-r-img {
-  width: 70px;
-}
-
-/* .....................footer section css................... */
 
 .footer-logo {
-  width: 220px;
+  max-width: 190px;
 }
 
 .fab {
   color: rgb(99, 93, 93);
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
-/* Hover tags */
-
-.login:hover {
-  color: #fff;
+.s-m-list {
+  padding-right: 10px;
 }
 
-.navbar-list2:hover,
-.navbar-list1:hover {
-  color: #f72313;
+.footer1 {
+  border-bottom: 2px solid #f4f5f7;
+}
+
+.footer3 {
+  margin-top: -20px;
 }
