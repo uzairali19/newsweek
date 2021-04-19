@@ -16,18 +16,62 @@
 -Bootstrap 5
 
 ## Live Demo
-[Live Demo Link](https://mahbubul14.github.io/newsweek-clone/)
+[Live Demo Link](https://uzairali19.github.io/newsweek/)
 
 # Getting Started:
 
 To get a local copy up and running follow these simple example steps.
-Go to (https://mahbubul14.github.io/newsweek-clone/)
 
-1. Click on the code and copy the HTML code.
-2. Use terminal to clone this repository on your local machine.
-3. Run git checkout -b your-branch-name. Make your contributions.
-4. Push your branch up to your forked repository.
-5. Open a Pull Request with a detailed description of the development branch of the original project for a review.
+### Prerequisites
+
+Git
+Node, Node package Manager
+
+### Setup Local
+
+Use 
+
+```
+git clone https://github.com/uzairali19/newsweek.git
+```
+
+to clone the branch directly to your machine
+
+For Linters:
+
+```
+npm install --save-dev hint@6.0.x
+```
+
+```
+npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
+```
+
+### Usage
+
+This is used for learning purposes. Feel free to collaborate.
+
+### Run tests
+
+To locally run tests using html and css linters.
+
+Use:
+
+For HTML:
+
+```
+npx hint .
+```
+
+For CSS:
+
+```
+npx stylelint "**/*.{css,scss}" 
+```
+
+### Deployment
+
+Make a pull request if your want to contribute. Thanks.
 
 # Authors:
 
