@@ -75,17 +75,18 @@ Make a pull request if your want to contribute. Thanks.
 
 # Authors:
 
-👤 **Mahbub Alam**
-
-- GitHub: [@githubhandle](https://github.com/mahbubul14/)
-- Twitter: [@twitterhandle](https://twitter.com/MahbubA10454419)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mahbubul-alam-20595/)
-
 👤 **Uzair Ali**
 
 - GitHub: [@githubhandle](https://github.com/uzairali19)
 - Twitter: [@twitterhandle](https://twitter.com/MahbubA10454419)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/uzair-ali-964187166/)
+
+
+👤 **Mahbub Alam**
+
+- GitHub: [@githubhandle](https://github.com/mahbubul14/)
+- Twitter: [@twitterhandle](https://twitter.com/MahbubA10454419)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mahbubul-alam-20595/)
 
 ## 🤝 Contributing
 
